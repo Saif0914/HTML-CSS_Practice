@@ -1,0 +1,28 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+/* no.1 */
+@media (max-width: 300px){
+    div {
+        background-color: green;
+    }
+}
+/* no.2 */
+@media (min-width: 300px) and (max-width: 400px){
+    div {
+        background-color: black;
+    }
+}
+/* no.3 */
+@media (min-width: 400px) and (max-width: 600px){
+    div {
+        background-color: red;
+    }
+}
+/* no.4 */
+@media (min-width: 600px){
+    div {
+        background-color: blue;
+    }
